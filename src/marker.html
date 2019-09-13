@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Marker</title>
+</head>
+<style>
+	@keyframes pulse{
+		  from {
+		    box-shadow: 0 0 0 #ff5722;
+		  }
+		  85%, to {
+		    box-shadow: 0 0 20px 7px #ff5722;
+		  }
+		}
+		.circule{
+		  width: 12px;
+		  height: 12px;
+		  background-color: #ff5722;
+		  border-radius: 50%;
+		  animation: pulse 1.5s ease;
+		  animation-iteration-count: infinite;
+		}
+		.circule__wrap{
+		  padding: 20px;
+		}
+
+</style>
+<body>
+<div class="circule__wrap">
+  <div class="circule"></div>
+</div>
+	
+</body>
+</html>

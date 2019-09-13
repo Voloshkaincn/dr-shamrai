@@ -1,0 +1,47 @@
+@keyframes sliderContentHide {
+  from {
+    opacity: 1;
+    transform: none;
+  }
+
+  to {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+}
+@keyframes sliderContentShow {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes slide{  
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+   transform: translateY(0%);
+  }
+}
+@keyframes hidden{  
+  0% {
+   z-index: 2;
+  }
+   100% {
+   z-index: 2;
+  }
+}
+
+@keyframes pulse{
+  from {
+    box-shadow: 0 0 0 #ff5722;
+  }
+  85%, to {
+    box-shadow: 0 0 20px 7px #ff5722;
+  }
+}

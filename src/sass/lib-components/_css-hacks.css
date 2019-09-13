@@ -1,0 +1,26 @@
+body::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 6px;
+  height: 6px;
+}
+body::-webkit-scrollbar-track {
+  background: #e7e7e7;
+  border-radius: 0;
+}
+body::-webkit-scrollbar-thumb:window-inactive {
+  background: rgba(163, 163, 163, .8);
+}
+body::-webkit-scrollbar-thumb {
+  cursor: pointer;
+  border-radius: 0;
+  background: rgba(163, 163, 163, .9);
+  transition: background 0.2s ease;
+}
+body::-webkit-scrollbar-thumb:hover {
+  background: rgba(163, 163, 163, 1);
+}
+
+::-webkit-input-placeholder {color: #8f8f8f;}
+::-moz-placeholder          {color: #8f8f8f;}
+:-moz-placeholder           {color: #8f8f8f;}
+:-ms-input-placeholder      {color: #8f8f8f;}

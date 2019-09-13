@@ -1,0 +1,53 @@
+/* CSS Hacks. Scrollbars, placeholders etc. */
+@import "lib-components/css-hacks";
+
+
+/*===== bootstrap variables ========*/
+$container-max-widths: (
+  sm: 540px, //screen width from 576px to  767px
+  md: 720px, //screen width from 768px to  991px
+  lg: 960px, //screen width from 992px to  1199px
+  xl: 1170px, //screen width from 1200px to 1599px
+  xxl: 1440px //screen width from 1600px
+);
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1600px
+) !default;
+
+/* Bootstrap */
+@import '../libs/bootstrap-4.3.1/scss/bootstrap-grid.scss';
+
+$light: #dddddd;
+
+
+@import '../libs/bootstrap-4.3.1/scss/utilities/_spacing.scss';
+// @import '../libs/bootstrap-4.3.1/scss/mixins/_text-truncate.scss';
+// @import '../libs/bootstrap-4.3.1/scss/mixins/_hover.scss';
+// @import '../libs/bootstrap-4.3.1/scss/mixins/_deprecate.scss';
+// @import '../libs/bootstrap-4.3.1/scss/mixins/_text-hide.scss';
+// @import '../libs/bootstrap-4.3.1/scss/mixins/_text-emphasis.scss';
+// @import '../libs/bootstrap-4.3.1/scss/utilities/_text.scss';
+
+// Responsive alignment
+
+@each $breakpoint in map-keys($grid-breakpoints) {
+  @include media-breakpoint-up($breakpoint) {
+    $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+
+    .text#{$infix}-left   { text-align: left !important; }
+    .text#{$infix}-right  { text-align: right !important; }
+    .text#{$infix}-center { text-align: center !important; }
+  }
+}
+
+// /*=====slick slide=====*/
+ @import '../libs/slick-1.8.1/slick/slick.scss';
+ // /*=====light box=====*/
+ @import '../libs/lightbox/dist/css/lightbox.min.css';
+

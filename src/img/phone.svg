@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"  role="img" viewBox="0 0 24 24">
+
+<!-- 	<style>
+		@keyframes animation__phone_mob {
+		    0% {
+		        -webkit-transform: rotate(0deg);
+		        -moz-transform: rotate(0deg);
+		        -ms-transform: rotate(0deg);
+		        -o-transform: rotate(0deg);
+		        transform: rotate(0deg)
+		    }
+		    1% {
+		        -webkit-transform: rotate(-25deg);
+		        -moz-transform: rotate(-25deg);
+		        -ms-transform: rotate(-25deg);
+		        -o-transform: rotate(-25deg);
+		        transform: rotate(-25deg)
+		    }
+		    3% {
+		        -webkit-transform: rotate(25deg);
+		        -moz-transform: rotate(25deg);
+		        -ms-transform: rotate(25deg);
+		        -o-transform: rotate(25deg);
+		        transform: rotate(25deg)
+		    }
+		    5% {
+		        -webkit-transform: rotate(-25deg);
+		        -moz-transform: rotate(-25deg);
+		        -ms-transform: rotate(-25deg);
+		        -o-transform: rotate(-25deg);
+		        transform: rotate(-25deg)
+		    }
+		    7% {
+		        -webkit-transform: rotate(25deg);
+		        -moz-transform: rotate(25deg);
+		        -ms-transform: rotate(25deg);
+		        -o-transform: rotate(25deg);
+		        transform: rotate(25deg)
+		    }
+		    100%,
+		    8% {
+		        -webkit-transform: rotate(0deg);
+		        -moz-transform: rotate(0deg);
+		        -ms-transform: rotate(0deg);
+		        -o-transform: rotate(0deg);
+		        transform: rotate(0deg)
+		    }
+		}
+		@keyframes animation_fadeIn1 {
+		    from,  25%, 100% {
+		      opacity: 0;
+		    }
+		    40%, 65%{
+		      opacity: 1;
+		    }
+		}
+		@keyframes animation_fadeIn2 {
+		    from, 35%, 100% {
+		      opacity: 0;
+		    }
+		    50%, 65%{
+		      opacity: 1;
+		    }
+		}
+		@keyframes animation_fadeIn3 {
+		    from, 45%, 100% {
+		      opacity: 0;
+		    }
+		    60%, 65%{
+		      opacity: 1;
+		    }
+		}
+		.phone {
+		    display: block;
+		    width: 30px;
+		    height: 30px;
+		    -webkit-animation: animation__phone_mob 6s infinite forwards;
+		    -moz-animation: animation__phone_mob 6s infinite forwards;
+		    -o-animation: animation__phone_mob 6s infinite forwards;
+		    animation: animation__phone_mob 6s infinite forwards;
+		}
+		.svg-call > *{
+		  opacity: 0;
+		}
+		.svg-call > *:first-child{
+		  
+		  -webkit-animation: animation_fadeIn1 6s infinite forwards;
+		    -moz-animation: animation_fadeIn1 6s infinite forwards;
+		    -o-animation: animation_fadeIn1 6s infinite forwards;
+		    animation: animation_fadeIn1 6s infinite forwards;
+		}
+		.svg-call > *:nth-child(2){
+		 
+		  -webkit-animation: animation_fadeIn2 7s infinite forwards;
+		    -moz-animation: animation_fadeIn2 7s infinite forwards;
+		    -o-animation: animation_fadeIn2 7s infinite forwards;
+		    animation: animation_fadeIn2 6s infinite forwards;
+		}
+		.svg-call > *:nth-child(3){
+		  -webkit-animation: animation_fadeIn3 7s infinite forwards;
+		    -moz-animation: animation_fadeIn3 7s infinite forwards;
+		    -o-animation: animation_fadeIn3 7s infinite forwards;
+		    animation: animation_fadeIn3 6s infinite forwards;
+		}
+		.tel-phone {
+		    height: 100%;
+		    display: flex;
+		    align-items: center;
+		    position: relative;
+		}
+		.tel-phone svg {
+		    transform: rotate(270deg);
+		  z-index: 2;
+		}
+	</style> -->
+
+	<path d="M309.893 280.854L260.938 231.367C251.187 221.55 235.039 221.849 224.948 232.051L200.284 256.975C198.726 256.107 197.113 255.2 195.417 254.238C179.842 245.516 158.525 233.56 136.093 210.871C113.594 188.133 101.755 166.554 93.0986 150.801C92.1851 149.132 91.3099 147.523 90.4457 145.995L106.999 129.289L115.137 121.053C125.243 110.835 125.522 94.5182 115.794 84.6734L66.838 35.1803C57.1097 25.3493 40.9544 25.6476 30.8482 35.8652L17.0508 49.891L17.4278 50.2693C12.8014 56.2361 8.93538 63.1178 6.05842 70.5389C3.40641 77.6029 1.75527 84.3438 1.00029 91.0985C-5.464 145.265 19.0252 194.769 85.4859 261.945C177.355 354.795 251.389 347.781 254.583 347.438C261.539 346.598 268.205 344.918 274.98 342.258C282.259 339.385 289.063 335.483 294.962 330.817L295.264 331.087L309.241 317.253C319.327 307.037 319.617 290.715 309.893 280.854Z" fill="black"/>
+	<g class="svg-call">
+	<path d="M187.464 116C211.558 116.027 231.083 134.559 231.113 157.429C231.113 162.005 235.022 165.714 239.842 165.714C244.663 165.714 248.571 162.005 248.571 157.429C248.533 125.411 221.197 99.4645 187.464 99.4286C182.643 99.4286 178.735 103.138 178.735 107.714C178.735 112.29 182.643 116 187.464 116Z" fill="#D90000"/>
+	<path d="M182.708 66.1161C235.588 66.1747 278.44 106.53 278.502 156.33C278.502 160.859 282.401 164.531 287.21 164.531C292.02 164.531 295.918 160.859 295.918 156.33C295.846 97.4751 245.202 49.7816 182.708 49.7143C177.898 49.7143 174 53.3856 174 57.9152C174 62.4448 177.898 66.1161 182.708 66.1161Z" fill="#EE0000"/>
+	<path d="M182.7 16.4525C264.345 16.5383 330.509 79.1022 330.601 156.304C330.601 160.848 334.495 164.531 339.3 164.531C344.105 164.531 348 160.848 348 156.304C347.899 70.019 273.951 0.0944769 182.7 0C177.895 0 174 3.68268 174 8.22625C174 12.7698 177.895 16.4525 182.7 16.4525Z" fill="#FB0000"/>  
+	</g>
+</svg>
